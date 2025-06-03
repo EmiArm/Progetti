@@ -1,0 +1,112 @@
+<!-- This is the markdown template for the final project of the Building AI course, 
+created by Reaktor Innovations and University of Helsinki. 
+Copy the template, paste it to your GitHub README and edit! -->
+
+# SmartMood Tracker for Project Management
+
+Final project for the Building AI course
+
+## Summary
+
+SmartMood Tracker is an AI system that automatically analyzes the tone of work emails and messages to provide insights on the stress level and well-being of project teams.
+
+## Background
+
+Problem:
+Project management is a high-stress job. Project Managers (PMs) receive and handle hundreds of messages, emails, and requests — often in fast-paced and complex environments.
+Chronic stress within teams can lead to:
+1) burnout
+2) mistakes
+3) decreased productivity
+4) high employee turnover
+
+Personal motivation:
+I am very interested in project management and see stressed colleagues every day. Often the problem becomes visible only when it’s already too late.
+
+Importance:
+An AI system that can detect early signs of stress would help managers and HR teams to take proactive actions and improve the overall work climate.
+
+## How is it used?
+
+Context:
+For corporate project teams (PM + team members + HR).
+
+Users:
+1) Project Managers → can view team stress trends
+2) HR → can monitor overall company well-being
+3) Team members → can receive personal feedback (if they choose to opt-in)
+
+Affected people:
+All team members → special care must be taken regarding consent and privacy.
+
+Images will make your README look nice!
+Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
+![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+
+If you need to resize images, you have to use an HTML tag, like this:
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+
+This is how you create code examples:
+```
+def main():
+   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
+   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
+   fishers = [1891, 2652, 3800, 11611, 1757]
+
+   totPop = sum(pop)
+   totFish = sum(fishers)
+
+   # write your solution here
+
+   for i in range(len(countries)):
+      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
+
+main()
+```
+
+
+## Data sources and AI methods
+Data sources:
+- Internal emails (anonymized)
+- Slack / Teams / work chat messages
+- Interaction logs (response times, message frequency)
+
+Data quality:
+Privacy must be a top priority → all data must be used ethically and anonymized.
+
+AI techniques:
+- NLP (Natural Language Processing)
+- Sentiment analysis → positive / negative tone
+- Emotion detection (anxiety, frustration, etc.)
+- Pre-trained models: BERT, spaCy, HuggingFace Transformers
+- Simple classification: stable / attention needed / high risk
+
+Simple demo:
+I can implement a basic sentiment analysis demo using sample/mockup email data.
+
+## Challenges
+
+Limitations:
+- The tone of messages does not always perfectly reflect the actual emotional state.
+- Privacy → data must be handled ethically.
+- This does not replace human communication → it is only a support tool.
+
+## What next?
+
+How it could grow:
+- Interactive dashboard for HR / PMs
+- Analysis of trends over time
+- Integration with team feedback systems
+- More accurate and personalized models
+
+## Acknowledgments
+
+Use of open-source models (spaCy, HuggingFace Transformers, scikit-learn)
+Inspiration from HR Analytics articles and corporate well-being tools
+
+
+* list here the sources of inspiration 
+* do not use code, images, data etc. from others without permission
+* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
+  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
+* etc
