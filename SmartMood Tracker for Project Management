@@ -6,6 +6,8 @@ Copy the template, paste it to your GitHub README and edit! -->
 
 Final project for the Building AI course
 
+![Project Status: Prototype](https://img.shields.io/badge/status-prototype-orange)
+
 ## Summary
 
 SmartMood Tracker is an AI system that automatically analyzes the tone of work emails and messages to provide insights on the stress level and well-being of project teams.
