@@ -1,26 +1,29 @@
 # SmartMood Tracker for Project Management
-
 Final project for the Building AI course
 
 ## Summary
 
 SmartMood Tracker is an AI system that automatically analyzes the tone of work emails and messages to provide insights on the stress level and well-being of project teams.
 
+<img src="immagini/smartmood_tracker_dashboard.png" width="600">
+
 ## Background
 
 Problem:
 Project management is a high-stress job. Project Managers (PMs) receive and handle hundreds of messages, emails, and requests — often in fast-paced and complex environments.
+
 Chronic stress within teams can lead to:
-1) burnout
-2) mistakes
-3) decreased productivity
-4) high employee turnover
+- Burnout
+- Mistakes
+- Decreased productivity
+- High employee turnover
 
 Personal motivation:
 I am very interested in project management and see stressed colleagues every day. Often the problem becomes visible only when it’s already too late.
 
 Importance:
 An AI system that can detect early signs of stress would help managers and HR teams to take proactive actions and improve the overall work climate.
+
 
 ## How is it used?
 
@@ -35,32 +38,21 @@ Users:
 Affected people:
 All team members → special care must be taken regarding consent and privacy.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+## Example Code
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-
-### Example: simple sentiment analysis
-
-```python
 from transformers import pipeline
 
-# Load a pre-trained sentiment analysis pipeline
 sentiment_pipeline = pipeline("sentiment-analysis")
 
-# Example email text
 email_text = "I'm very concerned about the project deadlines. We're falling behind."
 
-# Run sentiment analysis
 result = sentiment_pipeline(email_text)
 
 print(result)
 
 
 ## Data sources and AI methods
+
 Data sources:
 - Internal emails (anonymized)
 - Slack / Teams / work chat messages
@@ -96,7 +88,11 @@ How it could grow:
 
 ## Acknowledgments
 
-Use of open-source models (spaCy, HuggingFace Transformers, scikit-learn)
+Use of open-source models:
+- spaCy, 
+- HuggingFace Transformers, 
+- scikit-learn
+
 Inspiration from HR Analytics articles and corporate well-being tools
 
 
