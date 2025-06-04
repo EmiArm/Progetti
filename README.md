@@ -8,7 +8,7 @@ Final project for the Building AI course
 
 SmartMood Tracker is an AI system that automatically analyzes the tone of work emails and messages to provide insights on the stress level and well-being of project teams.
 
-<img src="immagini/smartmood_tracker_dashboard.png" width="600">
+<img src="smartmoodtrackerdashboard.png.png" width="600">
 
 ## Background
 
