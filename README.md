@@ -90,4 +90,7 @@ How it could grow:
 ## Acknowledgments
 
 Use of open-source models (spaCy, HuggingFace Transformers, scikit-learn)
+
 Inspiration from HR Analytics articles and corporate well-being tools
+
+Potential impact: If properly implemented, SmartMood Tracker could provide valuable insights on team well-being and help foster a more positive work environment.
